@@ -21,7 +21,7 @@ Try the interactive demo on Hugging Face Spaces — upload any breast histopatho
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 Manual histopathology analysis is time-consuming, requires highly trained pathologists, and is subject to inter-observer variability. Current diagnostic workflows face significant bottlenecks due to limited specialist availability and increasing case volumes. This project addresses these challenges by developing a deep learning pipeline to classify **8 breast tumor subtypes** from microscopic images with high accuracy and clinical relevance.
 
@@ -35,7 +35,7 @@ Manual histopathology analysis is time-consuming, requires highly trained pathol
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 breast-cancer-classification/
@@ -64,7 +64,7 @@ breast-cancer-classification/
 
 ---
 
-## 🗃️ Dataset — BreaKHis
+##  Dataset — BreaKHis
 
 The [BreaKHis (BREAst-KHistopathology Images)](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/) dataset was developed at the Pathological Anatomy and Cytopathology Laboratory (P&D) of the Federal University of Paraná (UFPR), Brazil.
 
@@ -104,7 +104,7 @@ The [BreaKHis (BREAst-KHistopathology Images)](https://web.inf.ufpr.br/vri/datab
 
 ---
 
-## 🧪 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing & Augmentation
 
@@ -159,7 +159,7 @@ Unlike CNNs, Vision Transformers cannot use GradCAM (which requires convolutiona
 
 ---
 
-## 🏆 Results
+##  Results
 
 ### Binary Classification (Benign vs. Malignant)
 
@@ -222,7 +222,7 @@ Performance was evaluated separately for each magnification level:
 
 ---
 
-## 🔍 Interpretability Results
+##  Interpretability Results
 
 ### Per-Class Attention Gallery
 
@@ -244,7 +244,7 @@ The attention maps reveal that the model maintains consistent focus on diagnosti
 
 ---
 
-## 🌐 Hugging Face Demo
+##  Hugging Face Demo
 
 ![Demo Results](assets/demo_results.png)
 *Figure 9: Demo results showing classification output, attention regions, histological patterns, and clinical significance.*
@@ -267,7 +267,7 @@ The interactive demo (`app.py`) is built with Gradio and deployed on Hugging Fac
 
 ---
 
-## 📚 Related Work & Literature
+##  Related Work & Literature
 
 ### Deep Learning in Histopathology
 
@@ -309,7 +309,7 @@ The interactive demo (`app.py`) is built with Gradio and deployed on Hugging Fac
 
 ---
 
-## ⚕️ Clinical Context & Applications
+##  Clinical Context & Applications
 
 ### Development Perspective
 
@@ -385,7 +385,7 @@ This tool is intended for **research and educational purposes only**. It is not 
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 
@@ -446,7 +446,7 @@ The demo will be available at `http://localhost:7860`
 
 ---
 
-## 📊 Model Weights
+##  Model Weights
 
 Pretrained model weights are available:
 
@@ -458,7 +458,7 @@ The Phikon-v2 backbone is loaded directly from HuggingFace (`owkin/phikon-v2`) a
 
 ---
 
-## 📧 Contact & Citation
+##  Contact & Citation
 
 **Author:** Megi Xibrraku  
 **Email:** xibrrakumegi@gmail.com  
@@ -495,7 +495,7 @@ If you use this work in your research, please cite:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
